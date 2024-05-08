@@ -111,9 +111,10 @@ justify-content: center;
 }
 
 .services-description {
+  display: flex;
   width: 100%;
   /* Add a Flexbox property to make the services-content-wrapper a flex parent container. */
-
+  flex-direction: column;
   /* Add flex-direction: column; so that the services card's child flex items are laid out in a column. */
 
   margin-bottom: 50px;
@@ -133,7 +134,7 @@ justify-content: center;
 }
 
 .testimonial-content-wrapper {
-  display: flow;
+  display: flex;
   /* Add a Flexbox property to make the testimonial-content-wrapper a flex parent container. */
   justify-content: space-between;
   /* Add a justify-content property and value so that any extra space if the parent container is between the child flex items.  */
